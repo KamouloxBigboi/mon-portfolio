@@ -1,0 +1,1397 @@
+.splashBlueFrameIcon {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 1436px;
+  height: 825px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.unionIcon {
+  position: relative;
+  width: 0px;
+  height: 0px;
+}
+.splashPurpleFrameIcon {
+  position: absolute;
+  top: 126px;
+  left: -4px;
+  width: 743.7px;
+  height: 968.4px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image1Traced {
+  position: absolute;
+  height: 99.64%;
+  width: 100.84%;
+  top: 0%;
+  right: -0.49%;
+  bottom: 0.36%;
+  left: -0.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contacSubFrameChild {
+  position: absolute;
+  top: 619px;
+  left: 83px;
+  background-color: var(--color-gray-200);
+  width: 1438px;
+  height: 185px;
+}
+.contacSubFrameItem {
+  position: absolute;
+  height: 27.21%;
+  width: 21.71%;
+  top: 72.79%;
+  right: 2.06%;
+  bottom: 0%;
+  left: 76.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.restonsEnContact {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  line-height: 46px;
+  font-weight: 600;
+  display: inline-block;
+  width: 428px;
+}
+.kamalGuidadou {
+  position: absolute;
+  top: 76px;
+  left: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 249px;
+}
+.kamalguidadougmailcom {
+  position: absolute;
+  top: 163px;
+  left: 74px;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 239px;
+  height: 17px;
+}
+.restonsEnContactParent {
+  position: absolute;
+  top: 83px;
+  left: 78px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  width: 1258px;
+  height: 486px;
+  font-size: var(--font-size-19xl);
+  color: var(--color-tomato);
+}
+.envoyezVotreMessage {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 128.7%;
+  font-weight: 500;
+  font-family: var(--font-spartan);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 206px;
+}
+.sendEmailButton {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 500px;
+  left: 602px;
+  border-radius: var(--br-9xs);
+  width: 254px;
+  height: 53px;
+}
+.nameInput {
+  border: 1px solid var(--color-black);
+  outline: none;
+  font-family: var(--font-spartan);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-100);
+}
+.emailInput {
+  border: 1px solid var(--color-black);
+  outline: none;
+  font-family: var(--font-spartan);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.messageInput {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-white);
+  font-family: var(--font-spartan);
+  font-size: var(--font-size-xl);
+  outline: none;
+  width: 666px;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  height: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 9px 0px;
+  color: var(--color-gray-100);
+}
+.sendEmailFrame {
+  position: absolute;
+  top: 174px;
+  left: 602px;
+  width: 666px;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.antDesigntwitterCircleFill {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.antDesigngithubFilledIcon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.antDesigntwitterCircleFillParent {
+  position: absolute;
+  top: 696px;
+  left: 622px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.kamalGuidadou1 {
+  position: absolute;
+  top: 659.2px;
+  left: 638px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+.frame {
+  position: absolute;
+  top: -33.8px;
+  left: 297px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.vectorIcon {
+  position: absolute;
+  height: 35.19%;
+  width: 5.83%;
+  top: -20.77%;
+  right: 46.72%;
+  bottom: 85.58%;
+  left: 47.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tousDroitsRservs {
+  position: absolute;
+  top: -7.8px;
+  left: -6px;
+  font-weight: 500;
+}
+.frameParent {
+  position: absolute;
+  top: 779px;
+  left: 560px;
+  width: 314px;
+  height: 52px;
+  text-align: center;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.95%;
+  width: 1.27%;
+  top: 78.09%;
+  right: 42.48%;
+  bottom: 19.96%;
+  left: 56.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kamalGuidadou2 {
+  position: absolute;
+  top: 771.2px;
+  left: 734px;
+  font-weight: 500;
+}
+.blankLine {
+  margin-block-start: 0;
+  margin-block-end: 5.28px;
+}
+.blankLine1 {
+  margin: 0;
+}
+.saintOuenSurSeine {
+  position: absolute;
+  top: 265px;
+  left: 108px;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 249px;
+  height: 46px;
+}
+.div {
+  position: absolute;
+  top: 211px;
+  left: 152px;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 217px;
+  height: 17px;
+}
+.email {
+  text-decoration: none;
+  position: absolute;
+  top: 242px;
+  left: 113px;
+  width: 25px;
+  height: 21px;
+  background-image: url("/public/email@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tel {
+  text-decoration: none;
+  position: absolute;
+  top: 207px;
+  left: 111px;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/tel@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.map {
+  border: none;
+  position: absolute;
+  top: 322px;
+  left: 108px;
+  width: 428px;
+  height: 231px;
+  overflow: hidden;
+}
+.accueil {
+  width: 121px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-tomato);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.aProposDe {
+  width: 251px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.comptences {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.travaux {
+  width: 135px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contactMenu {
+  position: absolute;
+  top: calc(50% - 299.5px);
+  left: calc(50% - 145px);
+  width: 716px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.ceSiteA {
+  position: absolute;
+  top: 740.2px;
+  left: 540px;
+  font-weight: 500;
+  text-align: center;
+}
+.bxbxsCopyright {
+  position: absolute;
+  top: 734.2px;
+  left: 718px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.copyright {
+  position: absolute;
+  top: -26px;
+  left: 83px;
+  width: 1438px;
+  height: 827px;
+  overflow: hidden;
+}
+.contacSubFrame {
+  width: 1521px;
+  position: relative;
+  height: 775px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contactFrame {
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 1443px;
+  height: 833px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+.contactsection {
+  position: absolute;
+  top: 3330px;
+  left: 0px;
+  width: 1438px;
+  height: 836px;
+  font-size: var(--font-size-sm);
+}
+.monProjetEn {
+  position: absolute;
+  top: 35px;
+  left: 558px;
+}
+.santConnect {
+  position: absolute;
+  top: 107px;
+  left: 557px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.programmCommeUn {
+  margin-block-start: 0;
+  margin-block-end: 5.28px;
+  white-space: pre-wrap;
+}
+.outils {
+  font-weight: 600;
+  font-family: var(--font-spartan);
+}
+.span {
+  font-family: var(--font-spartan);
+}
+.outilsEtApiSocketioBcr {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.basSurLideContainer {
+  position: absolute;
+  top: 166px;
+  left: 560px;
+  line-height: 170%;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 617px;
+  height: 439px;
+  font-size: var(--font-size-lgi);
+}
+.frameChild {
+  position: absolute;
+  top: 71px;
+  left: 0px;
+  width: 510.5px;
+  height: 694px;
+  object-fit: contain;
+}
+.frameItem {
+  width: 78px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.frameInner {
+  width: 64px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.frameIcon {
+  width: 109px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.frameChild1 {
+  width: 85px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.frameChild2 {
+  width: 99px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.frameChild3 {
+  width: 98px;
+  border-radius: var(--br-9xs);
+  height: 40px;
+  object-fit: cover;
+}
+.instanceParent {
+  position: absolute;
+  top: 625px;
+  left: 560px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.frameIcon1 {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.frameGroup {
+  position: absolute;
+  top: 647px;
+  left: 581px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.nhsitezPas {
+  position: absolute;
+  top: 10.1px;
+  left: 66px;
+  font-weight: 600;
+  display: inline-block;
+  width: 529px;
+}
+.unionIcon1 {
+  position: relative;
+  width: 33.8px;
+  height: 33.1px;
+}
+.nhsitezPasCliquerSurLeParent {
+  position: absolute;
+  top: 696px;
+  left: 560px;
+  width: 595px;
+  height: 33.1px;
+  font-size: var(--font-size-lg);
+  color: #15104f;
+}
+.frame1 {
+  position: absolute;
+  top: 0px;
+  left: 92px;
+  width: 1202px;
+  height: 729px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+  color: var(--color-tomato);
+}
+.frameIcon3 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.faireDfiler {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.frameContainer {
+  width: 129px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.accueil1 {
+  width: 93px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-tomato);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.aPropos {
+  width: 192px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.comptences1 {
+  width: 173px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contact {
+  width: 114px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.resume {
+  position: relative;
+  line-height: 128.7%;
+  font-weight: 500;
+}
+.resumeWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--new-green);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-7xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--new-green);
+}
+.accueilParent {
+  width: 753px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.frame2 {
+  position: absolute;
+  top: 787px;
+  left: 96.5px;
+  width: 1247px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.scroll {
+  position: absolute;
+  top: 7px;
+  left: 141px;
+  font-weight: 500;
+}
+.frameIcon4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.scrollParent {
+  width: 68px;
+  position: relative;
+  height: 24px;
+}
+.frameDiv {
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  width: 1440px;
+  height: 826px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 26.5px 109px;
+  box-sizing: border-box;
+}
+.contact1 {
+  position: absolute;
+  top: 6px;
+  left: 18px;
+  width: 1440px;
+  height: 844px;
+  overflow: hidden;
+}
+.frameChild4 {
+  width: 1440px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  height: 841px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.frameInner1 {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  width: 1440px;
+  height: 841px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame3 {
+  position: absolute;
+  top: 855px;
+  left: 0px;
+  width: 1440px;
+  height: 850px;
+  overflow: hidden;
+}
+.workssectionChild {
+  position: absolute;
+  height: 12.13%;
+  width: 12.73%;
+  top: 76.02%;
+  right: 84.28%;
+  bottom: 11.85%;
+  left: 2.98%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.workssection {
+  position: absolute;
+  top: 2494px;
+  left: 0px;
+  background-color: var(--color-white);
+  width: 1438px;
+  height: 836px;
+  overflow: hidden;
+  color: var(--color-gray-200);
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 100%;
+  width: 18.5%;
+  top: 0%;
+  right: 81.5%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.faireDfiler1 {
+  position: absolute;
+  top: 4.7px;
+  left: 31.1px;
+  font-weight: 500;
+  display: inline-block;
+  width: 77px;
+  cursor: pointer;
+}
+.vectorParent {
+  position: absolute;
+  height: 98.51%;
+  width: 12.5%;
+  top: 1.49%;
+  right: 87.5%;
+  bottom: 0%;
+  left: 0%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.accueil2 {
+  position: absolute;
+  top: 0px;
+  left: 173.1px;
+  display: inline-block;
+  color: var(--color-tomato);
+  width: 93px;
+  cursor: pointer;
+}
+.aPropos1 {
+  position: absolute;
+  top: 0px;
+  left: 306.1px;
+  font-weight: 500;
+  display: inline-block;
+  width: 192px;
+  cursor: pointer;
+}
+.travaux1 {
+  position: absolute;
+  top: 0px;
+  left: 538.1px;
+  font-weight: 500;
+  display: inline-block;
+  width: 173px;
+  cursor: pointer;
+}
+.contact2 {
+  position: absolute;
+  top: 0px;
+  left: 751.1px;
+  font-weight: 500;
+  display: inline-block;
+  width: 114px;
+}
+.skillsNavMenu {
+  position: absolute;
+  height: 2.44%;
+  width: 60.16%;
+  top: 94.32%;
+  right: 32.68%;
+  bottom: 3.24%;
+  left: 7.16%;
+}
+.comptences2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: var(--color-tomato);
+}
+.jaimeMeDpasser {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  font-size: var(--font-size-lgi);
+  line-height: 170%;
+  display: inline-block;
+  width: 617px;
+}
+.cellesSurLequelles {
+  position: absolute;
+  top: 566px;
+  left: 0px;
+  font-size: var(--font-size-lg);
+  line-height: 170%;
+  display: inline-block;
+  width: 629px;
+}
+.skillsSubCenterFrameChild {
+  position: absolute;
+  top: 302px;
+  left: 108px;
+  width: 400px;
+  height: 215.4px;
+  object-fit: cover;
+}
+.bgIcon {
+  position: absolute;
+  top: 0px;
+  left: 373px;
+  width: 152px;
+  height: 192px;
+  object-fit: cover;
+}
+.skillsPhotoIcon {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 475px;
+  height: 653px;
+  object-fit: contain;
+}
+.bAndWComput {
+  position: absolute;
+  top: 6px;
+  left: 696px;
+  width: 525px;
+  height: 688px;
+}
+.skillsSubCenterFrameItem {
+  position: absolute;
+  top: 612px;
+  left: 78px;
+  width: 461px;
+  height: 82px;
+  object-fit: cover;
+}
+.skillsSubCenterFrame {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 1335px;
+  height: 734px;
+  overflow: hidden;
+}
+.tracedIcon {
+  position: absolute;
+  height: 96.36%;
+  width: 87.29%;
+  top: 6.58%;
+  right: -57.35%;
+  bottom: -2.94%;
+  left: 70.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.skillssectionWithoutNav {
+  position: absolute;
+  top: 0px;
+  left: 103px;
+  width: 1249px;
+  height: 836px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+}
+.skillssection {
+  position: absolute;
+  top: 1666px;
+  left: 0px;
+  width: 1438px;
+  height: 828px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.bgIcon1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 152px;
+  height: 192px;
+  object-fit: cover;
+}
+.kamalPhotoIcon {
+  position: absolute;
+  top: 41px;
+  left: 46px;
+  width: 474.9px;
+  height: 658px;
+  object-fit: cover;
+}
+.aboutPhotoFrame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 520.9px;
+  height: 699px;
+  overflow: hidden;
+}
+.aMonPropos {
+  position: relative;
+}
+.ouPluttJai {
+  margin: 0;
+  font-size: var(--font-size-lgi);
+  white-space: pre-wrap;
+}
+.mdiateurCulturelDeContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 170%;
+  color: var(--color-gray-200);
+  font-size: var(--font-size-xl);
+}
+.aboutTextframeSmall {
+  align-self: stretch;
+  height: 570px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.tlchargerMonCv {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 128.7%;
+  font-weight: 500;
+}
+.downloadCvButton {
+  width: 229px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.aboutTextframeGeneral {
+  position: absolute;
+  top: 35px;
+  left: 581px;
+  width: 617px;
+  height: 664px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.aboutCentreFrame {
+  position: absolute;
+  top: 30px;
+  left: 104px;
+  width: 1232px;
+  height: 699px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-tomato);
+}
+.frameChild5 {
+  flex: 1;
+  position: relative;
+  height: 20px;
+}
+.frame5 {
+  align-self: stretch;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame4 {
+  position: absolute;
+  top: 760px;
+  left: 104px;
+  width: 697px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.resumeContainer {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--new-green);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-7xl);
+}
+.aboutsectionInner {
+  position: absolute;
+  top: 766px;
+  left: 258px;
+  width: 735px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--new-green);
+}
+.accueil3 {
+  position: absolute;
+  top: 782px;
+  left: 244px;
+  display: inline-block;
+  color: var(--color-tomato);
+  width: 135.8px;
+  cursor: pointer;
+}
+.comptences3 {
+  position: absolute;
+  top: 782px;
+  left: 443.8px;
+  font-weight: 500;
+  display: inline-block;
+  width: 135.8px;
+  cursor: pointer;
+}
+.travaux2 {
+  position: absolute;
+  top: 782px;
+  left: 643.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 135.8px;
+  cursor: pointer;
+}
+.contact3 {
+  position: absolute;
+  top: 782px;
+  left: 843.3px;
+  font-weight: 500;
+  display: inline-block;
+  width: 135.8px;
+}
+.aboutsection {
+  position: absolute;
+  top: 834px;
+  left: 0px;
+  width: 1438px;
+  height: 832px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.vectorIcon3 {
+  width: 151px;
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  left: 68px;
+  height: 99.2px;
+  z-index: 0;
+}
+.vectorIcon4 {
+  width: 2.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 154px;
+  left: 218px;
+  height: 14.1px;
+  z-index: 1;
+}
+.kamalGuidadou3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-text-stroke: 1.5px #fff;
+}
+.dveloppeurFullStack {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.kamalGuidadouParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.githubIcon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.entypoSociallinkedinWithCiIcon1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.linkedin {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  cursor: pointer;
+}
+.image1Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image1Wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 36px;
+}
+.g1 {
+  width: 36px;
+  position: relative;
+  height: 36px;
+}
+.socialNetwork {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameParent1 {
+  width: 535px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px;
+}
+.frame6 {
+  width: 535px;
+  margin: 0 !important;
+  position: absolute;
+  top: 243px;
+  left: 82px;
+  height: 238px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 2;
+}
+.homeSubFrame {
+  position: absolute;
+  top: 41px;
+  left: 8px;
+  width: 788px;
+  height: 456px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.comptences4 {
+  position: absolute;
+  height: 98.75%;
+  width: 24.37%;
+  top: 0%;
+  left: 32.63%;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+.travaux3 {
+  position: absolute;
+  height: 98.75%;
+  width: 11.34%;
+  top: 0%;
+  left: 64.99%;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+.aProposDe1 {
+  position: absolute;
+  height: 98.75%;
+  width: 24.68%;
+  top: 1.25%;
+  left: 0%;
+  font-weight: 500;
+  color: var(--color-tomato);
+  display: inline-block;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  cursor: pointer;
+}
+.contact4 {
+  position: absolute;
+  height: 98.75%;
+  width: 11.34%;
+  top: 0%;
+  left: 88.66%;
+  font-weight: 500;
+  color: var(--color-tomato);
+  display: inline-block;
+  cursor: pointer;
+}
+.navMenuHome {
+  position: absolute;
+  top: 171px;
+  left: 90px;
+  width: 714px;
+  height: 24px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.vectorIcon5 {
+  position: absolute;
+  height: 2.4%;
+  width: 1.39%;
+  top: 91.24%;
+  right: 92.28%;
+  bottom: 6.36%;
+  left: 6.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.faireDfiler2 {
+  position: absolute;
+  top: 91.72%;
+  left: 8.48%;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-gray-200);
+  cursor: pointer;
+}
+.homesection {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1438px;
+  height: 833px;
+  overflow-y: auto;
+  font-size: var(--font-size-19xl);
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 100%;
+  width: 18.52%;
+  top: 0%;
+  right: 81.48%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.faireDfiler3 {
+  position: absolute;
+  top: 20%;
+  left: 28.7%;
+  font-weight: 500;
+}
+.toscroll {
+  position: absolute;
+  top: 1616px;
+  left: 103px;
+  width: 108px;
+  height: 20px;
+  cursor: pointer;
+  color: var(--color-gray-200);
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: #fbfbfb;
+  height: 4166px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-spartan);
+}
+
+@media screen and (max-width: 960px) {
+  .frameChild5 {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameChild5 {
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

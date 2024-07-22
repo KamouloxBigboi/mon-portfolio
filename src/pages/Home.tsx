@@ -536,13 +536,17 @@ const Home: FunctionComponent = () => {
             />
             <div className={styles.bAndWComput}>
               <img className={styles.bgIcon} alt="" src="/bg@2x.png" />
-              <picture> <source srcSet="/skills-photo_2x.webp" type="image/webp"/>
-              <img
-                className={styles.skillsPhotoIcon}
-                alt=""
-                src="/skills-photo@2x.png"
-                onContextMenu={(e) => e.preventDefault() } // Désactive le clique droit
+              <picture> 
+                <source 
+                  srcSet="/skills-photo_2x.webp" 
+                  type="image/webp"/>
+                <img
+                  className={styles.skillsPhotoIcon}
+                  alt=""
+                  src="/skills-photo@2x.png"
+                  onContextMenu={(e) => e.preventDefault() } // Désactive le clique droit
               />
+              </picture>
             </div>
             <img
               className={styles.skillsSubCenterFrameItem}
@@ -560,11 +564,17 @@ const Home: FunctionComponent = () => {
         <div className={styles.aboutCentreFrame}>
           <div className={styles.aboutPhotoFrame}>
             <img className={styles.bgIcon1} alt="" src="/bg@2x.png" />
+          <picture> 
+            <source 
+              srcSet="/kamal-photo_2x.webp" 
+              type="image/webp" />
             <img
               className={styles.kamalPhotoIcon}
               alt=""
               src="/kamal-photo@2x.png"
+              onContextMenu={ (e) => e.preventDefault() } //Désactive le clique droit
             />
+          </picture>
           </div>
           <div className={styles.aboutTextframeGeneral}>
             <div className={styles.aboutTextframeSmall}>

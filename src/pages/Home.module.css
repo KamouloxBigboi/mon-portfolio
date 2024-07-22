@@ -265,9 +265,6 @@
   margin-block-start: 0;
   margin-block-end: 5.28px;
 }
-.blankLine1 {
-  margin: 0;
-}
 .saintOuenSurSeine {
   position: absolute;
   top: 265px;
@@ -369,10 +366,12 @@
 }
 .ceSiteA {
   position: absolute;
-  top: 740.2px;
-  left: 540px;
+  top: 740px;
+  left: 489px;
   font-weight: 500;
   text-align: center;
+  display: inline-block;
+  width: 519px;
 }
 .bxbxsCopyright {
   position: absolute;
@@ -423,6 +422,7 @@
   position: absolute;
   top: 35px;
   left: 558px;
+  font-size: var(--font-size-13xl);
 }
 .santConnect {
   position: absolute;
@@ -430,11 +430,6 @@
   left: 557px;
   font-size: var(--font-size-5xl);
   font-weight: 600;
-}
-.programmCommeUn {
-  margin-block-start: 0;
-  margin-block-end: 5.28px;
-  white-space: pre-wrap;
 }
 .outils {
   font-weight: 600;
@@ -447,7 +442,7 @@
   margin: 0;
   font-size: var(--font-size-mini);
 }
-.basSurLideContainer {
+.partantDeLideContainer {
   position: absolute;
   top: 166px;
   left: 560px;
@@ -456,14 +451,13 @@
   display: inline-block;
   width: 617px;
   height: 439px;
-  font-size: var(--font-size-lgi);
 }
 .frameChild {
   position: absolute;
   top: 71px;
   left: 0px;
-  width: 510.5px;
-  height: 694px;
+  width: 493px;
+  height: 484.5px;
   object-fit: contain;
 }
 .frameItem {
@@ -550,7 +544,6 @@
   left: 560px;
   width: 595px;
   height: 33.1px;
-  font-size: var(--font-size-lg);
   color: #15104f;
 }
 .frame1 {
@@ -560,7 +553,7 @@
   width: 1202px;
   height: 729px;
   overflow: hidden;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-lg);
   color: var(--color-tomato);
 }
 .frameIcon3 {
@@ -606,6 +599,7 @@
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .contact {
   width: 114px;
@@ -613,6 +607,7 @@
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .resume {
   position: relative;
@@ -831,13 +826,13 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  font-size: var(--font-size-13xl);
   color: var(--color-tomato);
 }
 .jaimeMeDpasser {
   position: absolute;
   top: 55px;
   left: 0px;
-  font-size: var(--font-size-lgi);
   line-height: 170%;
   display: inline-block;
   width: 617px;
@@ -846,7 +841,6 @@
   position: absolute;
   top: 566px;
   left: 0px;
-  font-size: var(--font-size-lg);
   line-height: 170%;
   display: inline-block;
   width: 629px;
@@ -870,9 +864,9 @@
 .skillsPhotoIcon {
   position: absolute;
   top: 35px;
-  left: 0px;
-  width: 475px;
-  height: 653px;
+  left: 155px;
+  width: 320px;
+  height: 439.9px;
   object-fit: contain;
 }
 .bAndWComput {
@@ -880,7 +874,7 @@
   top: 6px;
   left: 696px;
   width: 525px;
-  height: 688px;
+  height: 638px;
 }
 .skillsSubCenterFrameItem {
   position: absolute;
@@ -918,7 +912,6 @@
   width: 1249px;
   height: 836px;
   text-align: left;
-  font-size: var(--font-size-13xl);
   color: var(--color-gray-200);
 }
 .skillssection {
@@ -942,38 +935,44 @@
 }
 .kamalPhotoIcon {
   position: absolute;
-  top: 41px;
-  left: 46px;
-  width: 474.9px;
-  height: 658px;
+  top: 96px;
+  left: 61px;
+  width: 320px;
+  height: 434px;
   object-fit: cover;
 }
 .aboutPhotoFrame {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 520.9px;
-  height: 699px;
+  width: 381px;
+  height: 530px;
   overflow: hidden;
 }
 .aMonPropos {
   position: relative;
 }
-.ouPluttJai {
-  margin: 0;
-  font-size: var(--font-size-lgi);
-  white-space: pre-wrap;
+.aprsPrsDe {
+  margin-block-start: 0;
+  margin-block-end: 5.28px;
+  font-size: 21px;
 }
-.mdiateurCulturelDeContainer {
+.jeSuisConvaincu {
+  margin: 0;
+}
+.aprsPrsDeContainer {
   align-self: stretch;
   position: relative;
   line-height: 170%;
   color: var(--color-gray-200);
-  font-size: var(--font-size-xl);
+  display: inline-block;
+  height: 529px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
 }
 .aboutTextframeSmall {
   align-self: stretch;
-  height: 570px;
+  height: 590px;
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
@@ -983,7 +982,6 @@
   gap: 25px;
 }
 .tlchargerMonCv {
-  flex: 1;
   position: relative;
   letter-spacing: 0.01em;
   line-height: 128.7%;
@@ -996,7 +994,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 16px 24px;
   box-sizing: border-box;
   cursor: pointer;
@@ -1015,7 +1013,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-20xl);
+  gap: 20px;
 }
 .aboutCentreFrame {
   position: absolute;
@@ -1254,7 +1252,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-20xl);
+  gap: 39px;
 }
 .comptences4 {
   position: absolute;

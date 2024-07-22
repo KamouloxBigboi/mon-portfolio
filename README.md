@@ -6,5 +6,5 @@ Vous y découvrirez, outre le site lui même qui fait office de projet à lui se
 
 Le design et le code ont été créés par Kamal Guidadou avec l'aides des logiciels et extensions Figma, Locofy et VSCode en TypeScript & React/Vite.
 
-
 ##################################### Kamal Guidadou © 2024 ###########################################
+

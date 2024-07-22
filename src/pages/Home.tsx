@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 
 const Home: FunctionComponent = () => {
   const onAccueilTextClick = useCallback(() => {
-    const anchor = document.querySelector(  
+    const anchor = document.querySelector(
       "[data-scroll-to='homeSectionContainer']",
     );
     if (anchor) {
@@ -63,6 +63,24 @@ const Home: FunctionComponent = () => {
   const onAProposTextClick = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='aboutSectionContainer']",
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onComptencesText2Click = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='skillsSectionContainer']",
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onContactTextClick = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='contactSectionContainer']",
     );
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -129,7 +147,7 @@ const Home: FunctionComponent = () => {
     }
   }, []);
 
-  const onComptencesText2Click = useCallback(() => {
+  const onComptencesText3Click = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='skillsSectionContainer']",
     );
@@ -159,7 +177,7 @@ const Home: FunctionComponent = () => {
     window.open("https://tryhackme.com/p/KamouloxPelvis");
   }, []);
 
-  const onComptencesText3Click = useCallback(() => {
+  const onComptencesText4Click = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='skillsSectionContainer']",
     );
@@ -186,7 +204,7 @@ const Home: FunctionComponent = () => {
     }
   }, []);
 
-  const onContactTextClick = useCallback(() => {
+  const onContactText2Click = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='worksSectionContainer']",
     );
@@ -235,7 +253,10 @@ const Home: FunctionComponent = () => {
         alt=""
         src="/splash-purple-frame@2x.png"
       />
-      <div className={styles.contactsection}>
+      <div
+        className={styles.contactsection}
+        data-scroll-to="contactSectionContainer"
+      >
         <div className={styles.contactFrame}>
           <div className={styles.contacSubFrame}>
             <img
@@ -311,7 +332,7 @@ const Home: FunctionComponent = () => {
               <div className={styles.saintOuenSurSeine}>
                 <p className={styles.blankLine}>&nbsp;</p>
                 <p className={styles.blankLine}>93400 Saint-Ouen-sur-Seine</p>
-                <p className={styles.blankLine1}>&nbsp;</p>
+                <p className={styles.jeSuisConvaincu}>&nbsp;</p>
               </div>
               <div className={styles.div}>+33 7 73 74 53 21</div>
               <a
@@ -341,7 +362,8 @@ const Home: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.ceSiteA}>
-                Ce site a été créé en JavaScript avec Figma et NextJS
+                Ce site a été créé en TypeScript avec Figma/Locofy et
+                React/ViteJS
               </div>
               <div className={styles.bxbxsCopyright} />
             </div>
@@ -355,19 +377,22 @@ const Home: FunctionComponent = () => {
         <div className={styles.frame1}>
           <b className={styles.monProjetEn}>Mon projet en cours</b>
           <div className={styles.santConnect}>Santé Connect</div>
-          <div className={styles.basSurLideContainer}>
-            <p
-              className={styles.blankLine}
-            >{`Basé sur l’idée que les femmes aujourd’hui dans le milieu du travail ont des difficultés à faire reconnaitre leur spécifité au niveau médical, ce projet a pour but d’offrir un espace de parole et de réflexion autour de cette thématique. `}</p>
-            <p className={styles.blankLine}>&nbsp;</p>
-            <p className={styles.programmCommeUn}>
-              Programmé comme un réseau social au service des femmes, Santé
-              Connect est une application web de mise en relation et de
-              discussion autour de la santé féminine et des désagréments propres
-              aux femmes notamment dans le milieu professionel. Mon objectif est
-              que cette idée de solution applicative soit réappropriée par des
-              femmes pour les femmes.
+          <div className={styles.partantDeLideContainer}>
+            <p className={styles.blankLine}>
+              Partant de l'idée que les femmes rencontrent aujourd'hui des
+              difficultés à faire reconnaître leurs spécificités médicales dans
+              le milieu du travail, ce projet vise à offrir un espace de parole
+              et de réflexion sur cette thématique.
             </p>
+            <p className={styles.blankLine}>
+              Conçu comme un réseau social au service des femmes, Santé Connect
+              est une application web dédiée à la mise en relation et à la
+              discussion autour de la santé féminine, abordant notamment les
+              désagréments propres aux femmes dans le milieu professionnel. Mon
+              objectif est que cette solution applicative soit réappropriée par
+              des femmes, pour les femmes.
+            </p>
+            <p className={styles.blankLine}>&nbsp;</p>
             <p className={styles.outilsEtApiSocketioBcr}>
               <span>
                 <span className={styles.outils}>Outils</span>
@@ -431,8 +456,15 @@ const Home: FunctionComponent = () => {
             <div className={styles.aPropos} onClick={onAProposTextClick}>
               A propos
             </div>
-            <div className={styles.comptences1}>Compétences</div>
-            <div className={styles.contact}>Contact</div>
+            <div
+              className={styles.comptences1}
+              onClick={onComptencesText2Click}
+            >
+              Compétences
+            </div>
+            <div className={styles.contact} onClick={onContactTextClick}>
+              Contact
+            </div>
             <div className={styles.resumeWrapper}>
               <div className={styles.resume}>Resume</div>
             </div>
@@ -485,11 +517,17 @@ const Home: FunctionComponent = () => {
         <div className={styles.skillssectionWithoutNav}>
           <div className={styles.skillsSubCenterFrame}>
             <b className={styles.comptences2}>Compétences</b>
-            <div
-              className={styles.jaimeMeDpasser}
-            >{`J’aime me dépasser et suis continuellement en veille. Mon défi aujourd’hui est d’apporter le meilleur de ce que j’ai acquis au sein d’une équipe et de travailler à plusieurs avec une méthode Agile afin de repousser nos limites en groupe. Polyvalent, je saurai apprendre de nouveaux langages et sortir de ma zone de confort. Les compétences que je maîtrise : `}</div>
+            <div className={styles.jaimeMeDpasser}>
+              J'aime me dépasser et je suis continuellement en veille
+              technologique. Mon défi aujourd'hui est d'apporter le meilleur de
+              mes acquis au sein d'une équipe et de travailler en collaboration,
+              en utilisant la méthode Agile, afin de repousser ensemble nos
+              limites. Polyvalent, je suis capable d'apprendre de nouveaux
+              langages et de sortir de ma zone de confort. Voici les compétences
+              que je maîtrise :
+            </div>
             <div className={styles.cellesSurLequelles}>
-              Celles sur lequelles je travaille et que j’approfondirai :
+              Celles sur lequelles je travaille et que j’aimerais approfondir :
             </div>
             <img
               className={styles.skillsSubCenterFrameChild}
@@ -497,23 +535,15 @@ const Home: FunctionComponent = () => {
               src="/frame-99@2x.png"
             />
             <div className={styles.bAndWComput}>
-      <img
-        className={styles.bgIcon}
-        alt=""
-        src="/bg@2x.png"
-      />
-      <picture>
-        <source 
-          srcSet="/skills-photo_2x.webp"
-          type="image/webp"
-        />
-        <img
-          className={styles.skillsPhotoIcon}
-          alt="Photo en noir et blanc d'une personne tapant sur un laptop"
-          src="/skills-photo@2x.png"
-          onContextMenu={(e) => e.preventDefault()} // Désactiver le menu contextuel
-        />
-      </picture>
+              <img className={styles.bgIcon} alt="" src="/bg@2x.png" />
+              <picture> <source srcSet="/skills-photo_2x.webp" type="image/webp"/>
+              <img
+                className={styles.skillsPhotoIcon}
+                alt=""
+                src="/skills-photo@2x.png"
+                onContextMenu={(e) => e.preventDefault() } // Désactive le clique droit
+              />
+            </div>
             <img
               className={styles.skillsSubCenterFrameItem}
               alt=""
@@ -529,43 +559,38 @@ const Home: FunctionComponent = () => {
       >
         <div className={styles.aboutCentreFrame}>
           <div className={styles.aboutPhotoFrame}>
-            <img 
-              className={styles.bgIcon1} 
-              alt="" 
-              src="/bg@2x.png" />
-            <picture>
-              <source 
-                srcSet="kamal-photo_2x.webp" 
-                type="image/webp" />
-              <img
-                className={styles.kamalPhotoIcon}
-                alt=" Photo en noir et blanc de Kamal Guidadou"
-                src="/kamal-photo@2x.png"
-                onContextMenu={ (e) => e.preventDefault()}/> // Désactive le menu contextuel
-            </picture>
+            <img className={styles.bgIcon1} alt="" src="/bg@2x.png" />
+            <img
+              className={styles.kamalPhotoIcon}
+              alt=""
+              src="/kamal-photo@2x.png"
+            />
           </div>
           <div className={styles.aboutTextframeGeneral}>
             <div className={styles.aboutTextframeSmall}>
               <b className={styles.aMonPropos}>A mon propos</b>
-              <div className={styles.mdiateurCulturelDeContainer}>
-                <p className={styles.blankLine}>
-                  Médiateur Culturel de l’Art pendant près de 10 ans, je me suis
-                  reconverti à au développement web...
+              <div className={styles.aprsPrsDeContainer}>
+                <p className={styles.aprsPrsDe}>
+                  Après près de 10 ans en tant que Médiateur Culturel de l’Art,
+                  je me suis tourné vers le développement web...
                 </p>
                 <p className={styles.blankLine}>&nbsp;</p>
-                <p className={styles.ouPluttJai}>
-                  ...Ou plutôt j’ai achever de l’être. Mon ambition et ma
-                  persévérance m’ont poussé à me former en continu et à
-                  m'adapter à de nouveaux défis. Que ce soit avec une
-                  technologie que je maîtrise déjà ou une stack qui m'est
-                  inconnue, je suis désormais prêt à pousser plus loin d’autres
-                  technologies pour correspondre aux missions qui me seront
-                  données. Je suis convaincu que mon parcours atypique et ma
-                  détermination font de moi un candidat idéal en tant
-                  Développeur full Stack Junior. Oser prendre un alternant en
-                  reconversion, c’est faire le paris d’une pensée positive et
-                  pugnace, “out of the box” mais aussi prêt à beaucoup d’effort
-                  pour réussir.
+                <p className={styles.blankLine}>
+                  ...ou plutôt, j'ai pleinement embrassé cette nouvelle voie.
+                  Mon ambition et ma persévérance m'ont poussé à me former
+                  continuellement et à m'adapter à de nouveaux défis. Que ce
+                  soit avec une technologie que je maîtrise déjà ou une stack
+                  qui m'est inconnue, je suis désormais prêt à approfondir mes
+                  connaissances et à m’adapter aux missions qui me seront
+                  confiées.
+                </p>
+                <p className={styles.jeSuisConvaincu}>
+                  Je suis convaincu que mon parcours atypique et ma
+                  détermination font de moi un candidat idéal en tant que
+                  Développeur Full Stack Junior. Oser prendre un alternant en
+                  reconversion, c’est parier sur une pensée positive et pugnace,
+                  "out of the box", mais aussi sur une personne prête à fournir
+                  beaucoup d'efforts pour réussir.
                 </p>
               </div>
             </div>
@@ -590,7 +615,7 @@ const Home: FunctionComponent = () => {
         <b className={styles.accueil3} onClick={onAccueilText4Click}>
           Accueil
         </b>
-        <div className={styles.comptences3} onClick={onComptencesText2Click}>
+        <div className={styles.comptences3} onClick={onComptencesText3Click}>
           Compétences
         </div>
         <div className={styles.travaux2} onClick={onTravauxText3Click}>
@@ -642,7 +667,7 @@ const Home: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.navMenuHome}>
-          <div className={styles.comptences4} onClick={onComptencesText3Click}>
+          <div className={styles.comptences4} onClick={onComptencesText4Click}>
             Compétences
           </div>
           <div className={styles.travaux3} onClick={onTravauxText4Click}>
@@ -651,7 +676,7 @@ const Home: FunctionComponent = () => {
           <div className={styles.aProposDe1} onClick={onAProposDe2Click}>
             A propos de moi
           </div>
-          <div className={styles.contact4} onClick={onContactTextClick}>
+          <div className={styles.contact4} onClick={onContactText2Click}>
             Contact
           </div>
         </div>
@@ -670,7 +695,6 @@ const Home: FunctionComponent = () => {
         <div className={styles.faireDfiler3}>Faire défiler</div>
       </div>
     </div>
-  </div>
   );
 };
 

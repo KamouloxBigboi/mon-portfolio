@@ -9,15 +9,30 @@
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+<<<<<<< HEAD
     "browser": "^0.2.6",
     "component": "^1.1.0",
     "function": "^0.6.1",
     "react": "^18.3.1",
+=======
+    "react": "^18.2.0",
+
+>>>>>>> Incoming
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.25.1",
     "router": "^1.3.8",
+=======
+    "web-vitals": "^2.1.4",
+
+>>>>>>> Incoming
     "typescript": "^4.5.4",
+<<<<<<< HEAD
     "web-vitals": "^2.1.4"
+=======
+    "react-router-dom": "^6.2.1"
+
+>>>>>>> Incoming
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.2.0",
@@ -38,11 +53,7 @@
     "root": true
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

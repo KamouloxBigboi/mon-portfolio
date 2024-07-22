@@ -8,21 +8,32 @@ body {
   --font-spartan: Spartan;
 
   /* font sizes */
-  --font-size-sm: 14px;
+  --font-size-21xl: 40px;
+  --font-size-61xl: 80px;
+  --font-size-xl: 20px;
+
   --font-size-xs: 12px;
   --font-size-lg: 18px;
   --font-size-5xl: 24px;
   --font-size-19xl: 38px;
   --font-size-xl: 20px;
   --font-size-base: 16px;
-  --font-size-lgi: 19px;
+  --font-size-mid: 17px;
+
   --font-size-13xl: 32px;
   --font-size-mini: 15px;
 
   /* Colors */
   --color-gray-100: #928a97;
   --color-gray-200: #000c24;
-  --color-gray-300: #0a0a0a;
+<<<<<<< HEAD
+=======
+  --color-antiquewhite: #fbe8d3;
+
+>>>>>>> Incoming
+  --color-midnightblue: #15104f;
+  --color-black: #000;
+
   --color-tomato: #f44336;
   --color-white: #fff;
   --new-green: #5be7c3;
